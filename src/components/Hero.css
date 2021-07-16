@@ -1,0 +1,6 @@
+/* Hero background image */
+
+.hero {
+    background: black url(../images/handsInPockets.png) top / cover;
+}
+  
