@@ -18,7 +18,7 @@ export default function PortfolioCard( {project} ) {
             <br/>
             {project.languages.map( (language, index) => {
                 return (
-                    <span key={index} className="tag is-warning">{language} </span>
+                    <span key={index} className="tag is-link">{language} </span>
                     )
                 })}
             </div>

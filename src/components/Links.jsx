@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../assets/Goad-Matthew-Dev-RESUME-2021.pdf';
 
 export default function Links() {
     return (
@@ -12,7 +13,7 @@ export default function Links() {
               <a href="https://www.youtube.com/channel/UCrWJWPKeVUsjYXPPJJ42jUw"
                 className="button is-large is-warning">YouTube</a>
               <a href="https://www.facebook.com/matthewxgoad" className="button is-large is-warning">Facebook</a>
-              <a href="./assets/documents/Goad-Matthew-Dev-RESUME-2021.pdf" className="button is-large is-warning">Download
+              <a href={resume} className="button is-large is-warning">Download
                 Resume</a>
             </div>
           </div>
