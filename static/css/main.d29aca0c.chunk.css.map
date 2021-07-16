@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Hero.css"],"names":[],"mappings":"AAEA,MACI,wFACJ","file":"main.d29aca0c.chunk.css","sourcesContent":["/* Hero background image */\n\n.hero {\n    background: black url(../images/handsInPockets.png) top / cover;\n}\n  "]}
