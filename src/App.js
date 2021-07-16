@@ -5,6 +5,7 @@ import About from './components/About';
 
 import Footer from './components/Footer';
 import './App.css';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <NavBar />
       <Hero />
       <About />
-
+      <Portfolio />
 
       <Footer />
     </>

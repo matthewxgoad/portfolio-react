@@ -4,7 +4,7 @@ const portfolioData = [
         title: 'Password Generator',
         description: `A minimal and very useful application that generates a strong password based on user defined criterion
         like length and character types.`,
-        image: '',
+        image: '../images/password-deployed-demo.gif',
         languages: ['JavaScript', 'HTML', 'CSS'],
         urlDeployed: 'https://matthewxgoad.github.io/password-generator/',
         urlRepo: 'https://github.com/matthewxgoad/password-generator'
