@@ -7,8 +7,7 @@ export default function PortfolioCard( {project} ) {
         <div className="card-image">
             <figure className="image is-4by3">
             <a href={project.urlDeployed} alt={project.title} target="blank">
-                <img src={project.image} alt={project.title} />
-                
+                <img src={project.image} alt={project.title} /> 
             </a>
             </figure>
         </div>
