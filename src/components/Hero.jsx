@@ -3,10 +3,10 @@ import './Hero.css';
 
 export default function Hero() {
     return (
-        <section class="hero is-fullheight is-fullheight-with-navbar">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title is-1 has-text-warning has-background-dark">
+        <section className="hero is-fullheight is-fullheight-with-navbar">
+    <div className="hero-body">
+      <div className="container">
+        <h1 className="title is-1 has-text-warning has-background-dark">
           Matt Goad makes things.
         </h1>
       </div>
