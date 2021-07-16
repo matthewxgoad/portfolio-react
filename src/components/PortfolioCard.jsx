@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PortfolioCard( {project} ) {
   return (
-    <div className="column is-4">
+    <div className="column">
         <div className="card">
         <div className="card-image">
             <figure className="image is-4by3">
@@ -17,9 +17,9 @@ export default function PortfolioCard( {project} ) {
             <div className="content">
             {project.description}
             <br/>
-            {project.languages.map(language => {
+            {project.languages.map( (language, index) => {
                 return (
-                    <span className="tag is-warning">{language} </span>
+                    <span key={index} className="tag is-warning">{language} </span>
                     )
                 })}
             </div>

@@ -11,11 +11,11 @@ export default function Portfolio( props ) {
                 <h4 className="subtitle is-5">Stuff I Made.<em>(Or Worked On.)</em></h4>
             </div>
              <div className="container portfolio-container">
-                <div className="columns">
+                <div className="columns is-desktop is-centered is-multiline">
                     
-                        {portfolioState.map(project => {
+                        {portfolioState.map ((project, index) => {
                             return (
-                                <PortfolioCard project={project}/>
+                                <PortfolioCard key={index} project={project}/>
           
                             )
                         })}
