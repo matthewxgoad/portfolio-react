@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/Goad-Matthew-Dev-RESUME-2021.pdf';
+import resume from '../assets/MatthewGoadResume.pdf';
 
 export default function Links() {
     return (
